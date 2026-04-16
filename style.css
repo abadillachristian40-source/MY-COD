@@ -1,0 +1,37 @@
+<body>
+
+  <header>
+    <h1>Sip & Go</h1>
+    <img src="7783829b-f3a9-41fa-b84d-f34574401796.jpg" alt="Free website template" class="img-fluid mb-3">
+    <p>Fresh Drinks Anytime</p>
+  </header>
+
+  <section class="products">
+    <div class="card">
+      <h3>Milk Tea</h3>
+      <p>₱120</p>
+      <button onclick="addToCart('Milk Tea', 120)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <h3>Iced Coffee</h3>
+      <p>₱150</p>
+      <button onclick="addToCart('Iced Coffee', 150)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <h3>Fruit Tea</h3>
+      <p>₱100</p>
+      <button onclick="addToCart('Fruit Tea', 100)">Add to Cart</button>
+    </div>
+  </section>
+
+  <section class="cart">
+    <h2>🛒 Cart</h2>
+    <ul id="cartItems"></ul>
+    <p id="total">Total: ₱0</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
